@@ -52,7 +52,7 @@ public class Autotest2 {
 
         List<WebElement> elementList= webDriver.findElements(By.xpath("//span[contains(@class,'footer__social')]"));
         for (WebElement webElement:elementList){
-            Assert.assertTrue(webElement.isDisplayed());
+            Assert.assertTrue("Ошибка. Нет значка соц. сетей.", webElement.isDisplayed());
         }
 
     }
