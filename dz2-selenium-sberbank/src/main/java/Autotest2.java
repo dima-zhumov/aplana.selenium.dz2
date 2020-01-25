@@ -28,7 +28,7 @@ public class Autotest2 {
     }
 
     @Test
-    public void RGS() throws InterruptedException {
+    public void Sberbank() throws InterruptedException {
         webDriver.get("http://www.sberbank.ru/ru/person");
 
         WebDriverWait wait = new WebDriverWait(webDriver, 30);
